@@ -1,0 +1,23 @@
+---
+- name: Install Java and Jenkins on localhost
+  hosts: localhost
+  become: yes
+  roles:
+    - java
+    - jenkins
+
+- name: Install Java, Docker, and Kubernetes
+  hosts: KMaster
+  become: yes
+  roles:
+    - java
+    - docker
+    - kubernetes
+
+- name: Install Docker and Kubernetes on Kubernetes workers
+  hosts: KWorker
+  become: yes
+  roles:
+    - package-update
+    - docker
+    - kubernetes

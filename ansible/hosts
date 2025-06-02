@@ -1,0 +1,9 @@
+[KMaster]
+host-1 ansible_host=10.0.1.217
+[KWorker]
+host-2 ansible_host=10.0.2.188
+host-3 ansible_host=10.0.1.8
+
+[all:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/etc/ansible/terra-key
