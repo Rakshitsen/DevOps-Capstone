@@ -69,7 +69,8 @@ Configured using **Ansible**:
 
 **Rakshit Sen**  
 🔗 GitHub: [github.com/rakshitsen](https://github.com/rakshitsen)  
-🔗 LinkedIn: [linkedin.com/in/rakshitsen](https://linkedin.com/in/rakshitsen)
+🔗 LinkedIn: [[linkedin.com/in/rakshitsen](https://linkedin.com/in/rakshitsen)](https://www.linkedin.com/in/rakshit-sen-0171501b1/)
+🔗 DockerHub: https://hub.docker.com/repository/docker/rakshitsen/
 
 ---
 
